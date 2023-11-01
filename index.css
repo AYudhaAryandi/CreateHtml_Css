@@ -1,0 +1,100 @@
+.navbar {
+  background-color: rgb(56, 16, 168);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  padding: 12px 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  height: 550px;
+}
+
+.jumbotron img {
+  z-index: -3;
+  position: absolute;
+  width: 100%;
+}
+
+.jumbotron h2 {
+  color: rgb(17, 16, 16);
+  font-family: "Martian Mono", monospace;
+  width: 48%;
+  padding-top: 50px;
+  text-align: left;
+  font-size: 70px;
+  margin-left: 700px;
+  font-weight: bold;
+  position: relative;
+}
+
+.jumbotron p {
+  color: rgb(26, 25, 25);
+  font-family: "Martian Mono", monospace;
+  width: 700px;
+  text-align: left;
+  font-size: 17px;
+  margin-top: -40px;
+  margin-left: 600px;
+  margin-right: 200px;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+
+.intro {
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.desc {
+  display: flex;
+  padding: 10px;
+}
+.desc p {
+  padding: 50px;
+  text-align: center;
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.card {
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  background-color: rgb(209, 232, 252);
+}
+
+.card img{
+    padding:50px 100px;
+}
+
+.card p{
+padding: 10%; 
+padding-top: 1% ;
+font-size :20px;
+
+}
+
+
+@media (max-width: 320px) {
+  .card p{
+    display: none;
+  }
+}
